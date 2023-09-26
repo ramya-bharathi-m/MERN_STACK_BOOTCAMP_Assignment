@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.bg{
+   height: 100vh;
+   width: 98.6vw;
+   position: relative;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.shade{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.435);
+    /* background-image: linear-gradient(45deg, rgba(210, 25, 25, 0.825), rgba(255, 166, 0, 0.979), rgba(255, 192, 203, 0.87));  */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.bg-content{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    /* bottom: 400px; */
+    color: white;
+    top:50%;
+    left:50%;
+    width: 1000px;
+    text-align: center;
+}
+.bg-title{
+    font-weight: 900;
+    font-size: 50px;
+}
+.bg-subtitle{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.bg-subsub{
+    font-size: 20.9px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.emailid{
+    background-color: rgba(0, 0, 0, 0.493);
+    padding: 18px;
+    width: 340px;
+    height: 18px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: solid rgba(180, 180, 180, 0.664);
+    color: white;
+}
+::placeholder{
+    color: rgb(180, 180, 180);
+    font-weight: 500;
+}
+.get-started{
+    cursor: pointer;
+    padding: 12px;
+    width: 230px;
+    font-size: 23px;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border: solid rgba(0, 0, 0, 0.116);
+    border-radius: 4px;
+}
+.get-started:hover{
+    background-color: rgb(184, 2, 2);
+
+}
