@@ -1,0 +1,21 @@
+/* h1{
+    color: red;
+} */
+
+.title{
+    color:red;
+}
+
+/*
+border -> thickness, style(solid, dotted, dashed) color
+padding
+margin
+*/
+
+.box{
+  border: 3px solid red;
+  width: 500px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 30px;
+}
