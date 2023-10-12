@@ -2,6 +2,15 @@
     color: red;
 } */
 
+/* TOPICS
+    BOX MODEL
+    OVERFLOW
+
+
+*/
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .title{
     color:red;
 }
@@ -14,8 +23,23 @@ margin
 
 .box{
   border: 3px solid red;
-  width: 500px;
-  padding: 30px;
-  margin: 40px;
-  border-radius: 30px;
+  width: 400px;
+  padding: 10px;
+  margin: 50px auto;/*auto -> will automatically adjusts left and right sides and 50px is for all 4 sides in general*/
+  /*auto only works left and right till margin*/
+  border-radius: 16px;
+  height: 360px;
+  overflow: scroll;
+}
+
+.card{
+    width: 300px;
+    border: 6px solid lightgray;
+    border-radius: 14px;
+    margin: auto;
+    padding: 8px;
+}
+
+.card-img{
+    width: 300px;
 }
