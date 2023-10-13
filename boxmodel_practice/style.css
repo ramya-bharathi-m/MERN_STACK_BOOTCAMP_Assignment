@@ -29,6 +29,12 @@ Block -> Default property
 Inline -> It will use the space available (Margin X // Padding works)
 Inline-block -> It has combined property of inline and block (Both works)
 none -> Element is hidden
+
+BOX SIZING
+---------------
+<sometimes when applying padding will overflow on left or right side and we need 
+to short it down to the parent size>
+border-box -> it applies the padding, but also put everything inside the parent
 */
 
 .box{
