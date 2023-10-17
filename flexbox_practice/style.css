@@ -1,0 +1,55 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.card{
+    width: 260px;
+    border-radius:  14px;
+    margin: auto;
+    border: 1px solid lightgray;
+    /* padding: 10px; */
+}
+.card-img{
+    width: 100%;
+    /* border-radius: 14px; */
+    /* border-top-left-radius: 14px;
+    border-top-right-radius: 14px; */
+    border-radius: 14px 14px 0 0;
+}
+
+.card-body{
+    padding: 8px;
+}
+
+.title{
+    margin:6px 0;
+}
+
+.desc{
+    font-size: 14px;
+    /* margin: 0; */
+}
+
+/* FLEX BOX 
+justify content-> when you want to align items HORIZONTALLY
+  center, start, end, space-between, space-evenly
+
+flex-direction -> row, row-reverse, column, column-reverse (works acc to the names)
+
+Order -> when you want to change the position of the card manually in any order
+  order:2;
+  order:5;
+  order:3;
+  order:1;
+  order:4;
+  --example of 5 boxes and they shift according to the order
+
+flex-grow->  depending on the space it has it grows | always grow horizontally
+        flex-grow:1;(eg: for box 1)
+  if we want one to be bigger than the other 
+        flex-grow:2; (eg: for box 2, it will grow twice the first box)
+
+flex-wrap:wrap;
+        if we have three items of 100px without any gap, screen size of 300px is needed to show them horizontally
+        but if the screen is reduced to 200px then they align in such a way that two items are at the top row and one goes below....adjusts continuously according to the size of screen
+*/
