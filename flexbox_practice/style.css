@@ -1,33 +1,45 @@
-body{
+body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.card{
-    width: 260px;
-    border-radius:  14px;
-    margin: auto;
+
+.card {
+    width: 240px;
+    border-radius: 14px;
     border: 1px solid lightgray;
-    /* padding: 10px; */
-}
-.card-img{
-    width: 100%;
-    /* border-radius: 14px; */
-    /* border-top-left-radius: 14px;
-    border-top-right-radius: 14px; */
-    border-radius: 14px 14px 0 0;
+    padding: 5px;
+    flex-grow: 1;
+    display: none;
 }
 
-.card-body{
+.card-img {
+    width: 100%;
+    border-radius: 14px;
+
+    /* border-top-left-radius: 14px;
+    border-top-right-radius: 14px; */
+    /* border-radius: 14px 14px 0 0; */
+}
+
+.card-body {
     padding: 8px;
 }
 
-.title{
-    margin:6px 0;
+.title {
+    margin: 6px 0;
 }
 
-.desc{
+.desc {
     font-size: 14px;
     /* margin: 0; */
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
 }
 
 /* FLEX BOX 
@@ -52,4 +64,49 @@ flex-grow->  depending on the space it has it grows | always grow horizontally
 flex-wrap:wrap;
         if we have three items of 100px without any gap, screen size of 300px is needed to show them horizontally
         but if the screen is reduced to 200px then they align in such a way that two items are at the top row and one goes below....adjusts continuously according to the size of screen
+
+justify-content -> align HORIZONTALLY
+Align-items -> align VERTICALLY
+
+align-items : baseline; (it will put in start but align according to the height with respect to the baseline of the item
 */
+
+.post {
+
+    margin: 30px auto;
+    width: 500px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    border-radius: 14px;
+
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 14px;
+    height: 300px;
+}
+
+.user-img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.username {
+    font-size: 16px;
+    color: rgba(128, 128, 128, 0.802);
+}
+
+.profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
