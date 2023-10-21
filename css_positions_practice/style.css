@@ -1,0 +1,37 @@
+/*
+       POSITIONS
+1.Static -- The default
+2.Fixed -- the position will not change 
+3.Sticky
+4.Absolute
+5.Relative
+*/
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    width: 280px;
+    
+    border-radius: 14px;
+    padding: 5px;
+    margin: 10px auto;
+    border: 1px solid lightgray;
+}
+.card-img{
+    width: 100%;
+    height: 200px;
+    border-radius: 14px;
+}
+.btn{
+    position: fixed;
+    bottom: 0;/*places button at the bottom -- its like 0px from bottom*/
+    right: 0;
+    background-color: mediumvioletred;
+    padding:14px 30px;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
