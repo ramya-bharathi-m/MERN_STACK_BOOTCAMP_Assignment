@@ -51,3 +51,29 @@ body{
     color: white;
     border: none;
 }
+.flex{
+    display: flex;
+    width: 700px;
+    margin: 10px auto;
+    gap: 20px;
+}
+.section{
+    position: sticky;
+    top:0;
+    align-self: flex-start;/*since this part comes under a flex box, the position property must 
+    be taken care seperately, align-self does that*/
+}
+.relative{
+    background-color: rgb(253, 217, 162);
+    width: 800px;
+    height: 400px;
+    margin: 10px auto;
+    position: relative;
+}
+.absolute{
+    background-color: black;
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    bottom:0;
+}
