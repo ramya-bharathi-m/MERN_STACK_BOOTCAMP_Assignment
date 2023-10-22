@@ -8,8 +8,11 @@
 */
 
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@500&display=swap');
+
 body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .card{
     width: 280px;
@@ -76,4 +79,41 @@ body{
     width: 100px;
     height: 100px;
     bottom:0;
+}
+/*Making the img as relative and putting the contents on the top*/
+.bg{
+    width: 600px;
+    margin: 10px auto;
+    position: relative;
+}
+.bg-img{
+    width: 100%;
+   
+}
+.content{
+    width: auto;
+    position: absolute;
+    bottom: 15px;
+    color: white;
+    left: 40px;
+    right: 20px;
+}
+.bg-button{
+    font-weight: 900;
+    background-color: white;
+    color: black;
+    padding: 8px 8px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.shade{
+    background-color: rgba(0, 0, 0, 0.667);
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    /* bottom: 0; */
+    left: 0;
+    right: 0;
 }
