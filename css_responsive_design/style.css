@@ -69,6 +69,7 @@ p{
         
     }
     .card-img{
+        margin: 10px 20px;
         width: 90%;
         height: 30vmax;
         align-items: center;
