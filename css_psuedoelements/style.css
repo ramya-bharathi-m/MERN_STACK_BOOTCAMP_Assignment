@@ -1,0 +1,50 @@
+.red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.blue{
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+.box{
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 1px solid green;
+}
+.title{
+    font-size: 40px;
+    text-decoration:underline orchid;
+    text-align: center;
+}
+.title::first-letter{
+    color: crimson;
+}
+.title::selection{
+    color: #000;
+    background-color: rgb(191, 100, 237);
+    text-decoration: wavy;
+}
+.title:hover{
+    color: aqua;
+    text-decoration: rgb(128, 42, 11);
+}
+.aa{
+    text-align: center;
+    margin: 50px auto;
+    font-size: large
+}
+/* a:visited{
+    color: rgb(226, 43, 49); */
+/* } */
+a:active{
+color: darkolivegreen;
+}
+    
