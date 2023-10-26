@@ -1,7 +1,17 @@
 /* object-fit to overcome resolution issues */
 
-img{
-    height: 200px;
+/* img{
+    height: 800px;
     width: 200px;
-    object-fit: cover;
+    object-fit:cover;
+} */
+img{
+    height: 400px;
+    width: 400px;
+    /* filter:invert(100%); */
+    /* filter: sepia(100%); */
+    filter: hue-rotate(340deg);
+}
+img:hover{
+    filter: blur(0);
 }
