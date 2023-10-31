@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section{
+    height: 100vh;
+    width: 260px;
+    background-color: rgba(20, 20, 20, 0.917);
+    color: white;
+}
+.top-box{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap:6px;
+}
+.first{
+    padding: 10px 68px;
+    border: 1px solid gray;
+    margin-top: 8px;
+    margin-left: 3px;
+    border-radius: 6px;
+    font-size: 15px;
+    
+}
+.second{
+    padding: 6px 8px;
+    border: 1px solid gray;
+    margin-top: 8px;
+    border-radius: 6px;
+    
+}
