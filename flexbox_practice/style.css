@@ -103,6 +103,7 @@ align-items : baseline; (it will put in start but align according to the height 
 .username {
     font-size: 16px;
     color: rgba(128, 128, 128, 0.802);
+   
 }
 
 .profile{

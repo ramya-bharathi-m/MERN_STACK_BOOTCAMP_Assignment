@@ -21,12 +21,15 @@ body{
 
 @media(min-width:550px){
     .profile{
+       
         display: flex;
         gap: 10px;
         margin: 40px auto;
         align-items: center;
+        width: 600px;
      }
      .pic{
+        transition: .5s;
          height: 240px;
          width: 240px;
          object-fit: cover;
@@ -49,21 +52,23 @@ body{
 }
 @media(max-width:550px){
     .profile{
+       
         margin-top: 50px;
         text-align: center;
         align-items: center;
      }
      .pic{
+        transition: .5s;
          height: 220px;
          object-fit: cover;
          border-radius: 50%;
      }
      .btn{
-         transition: 0.5s;
+         transition: .5s;
          background-color: black;
          color: white;
          border: none;
-         border-radius: 6px;
+         border-radius: 16px;
          padding: 12px 20px;
      }
      .btn:hover{
@@ -72,4 +77,25 @@ body{
          border: 1px solid black;
      }
      
+}
+
+.loading{
+    height: 80px;
+    width: 80px;
+    /* margin: auto; */
+    background-color: crimson;
+    /* margin-top: 20px; */
+    animation-name: loading-animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading-animation{
+    from{}
+    to{
+        margin-left: 400px;
+        background-color: yellow;
+        border-radius: 50%;
+    }
+
 }
