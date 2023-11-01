@@ -99,3 +99,21 @@ body{
     }
 
 }
+.spinner{
+    height: 70px;
+    width: 70px;
+    border: 1px solid gray;
+    margin: 150px auto;
+    border-radius: 50%;
+    animation-name: spinner;
+    border-top:3px solid black;
+    animation-duration: 1s;
+}
+
+@keyframes spinner {
+    
+    from{}
+    to{
+        transform: rotate(360deg);
+    }
+}
