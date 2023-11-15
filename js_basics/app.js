@@ -40,3 +40,13 @@ let user = {
 console.log(user.name);
 console.log(user.address);
 console.log(user.interest);
+
+//truthy
+//falsy => 0 , -0, NaN, undefined,  '' , ""
+
+if('a'){
+    console.log("comes in truthy category");
+}
+else{
+    console.log("comes under falsy category");
+}
